@@ -1,0 +1,225 @@
+
+.navbar-default{
+  border-radius: 0;
+  background-color: #e64545;
+  border-color: #e64545;
+  color: white;
+}
+.navbar-default .navbar-brand{
+  color: white;
+}
+.navbar-default .navbar-nav > li > a{
+  color: white;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: white;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+  background-color: rgba(255,255,255,.5);
+  color: black;
+}
+.navbar-nav > li > .dropdown-menu{
+ background-color: #e64545;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+  color: white;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+  background-color: rgba(255,255,255,.5);
+  color: black;
+}
+#logo-left{
+  float: left;
+  max-width: 200px;
+}
+#logo-right{
+  float: right;
+  max-width: 200px;
+}
+#logo-left_{
+  float: left;
+  max-width: 200px;
+}
+.logo-right_{
+  float: right;
+  max-width: 100px;
+}
+header{
+    width: 100%;
+    padding: .5em;
+}
+.margenesHorizontales{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.margenesVerticales{
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.card{
+  position: relative;
+  *overflow: hidden;
+  margin: 0.5rem 0 1rem 0;
+  background-color: #fff;
+  transition: box-shadow .25s;
+  border-radius: 2px;
+}
+.shadow-1{
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.shadow-2{
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.shadow-3{
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.shadow-4{
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+}
+.shadow-5{
+  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
+}
+legend{
+  padding: .5em;
+  color: #e64545;
+}
+.container{
+  margin: 0;
+  padding: 0;
+  color: #e64545;
+}
+.menuTable{
+    width: 25px;
+    display: table-cell;
+    text-align: center;
+    color: black;
+    border-left: 1px solid #D8D8D8;
+    border-right: 1px solid #D8D8D8;
+    border-collapse: collapse;
+}
+
+@media (min-width: 768px) {
+  .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.login{
+  max-width: 500px;
+  margin: .5em auto;
+}
+hr{
+  margin-bottom: .5em;
+}
+
+.form-error{
+	border: 1px solid #a94442;
+}
+.error-message{
+    padding: 5px;
+    color: #a94442;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    border-radius: 0px 0px 9px 9px;
+}
+.tableSearchUsers{
+	border: 1px solid #DDDDDD;
+	display:none;
+}
+.btn-back{
+	border: 1px solid rgba(255,255,255,.5);
+    background-color: #e64545;
+    color: rgba(255,255,255,.5);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.btn-back:hover{
+    color: rgba(255,255,255,1);
+    background-color: #e64545;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#acciones{
+	list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.accion{
+	list-style: none;
+  padding-top: .5em;
+  background-color: #8A8787;
+  text-align: center;
+  font-size: 16px;
+  line-height: 31px;
+  font-weight: bold;
+}
+.grupos{
+	list-style: none;
+  margin: 0;
+  padding: .5em;
+  font-size: 16px;
+  background-color: #DADADA;
+  color: #383838;
+  text-align: left;
+  font-weight: 300;
+  border-bottom: 1px solid #6B6B6B;
+  border-left: 1px solid #6B6B6B;
+  border-right: 1px solid #6B6B6B;
+}
+.home{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    display: block;
+    padding: 15px 15px;
+}
+
+.critica {
+    color: rgb(235, 243, 247); 
+    border: 1px solid #CB0000;
+    border-radius: 2px;  
+    background-color: #CB0000;
+    font-weight: bold;
+    max-width: 67px;
+   	min-width: 67px; 
+   	text-align: center; 
+}
+
+.alta {
+    color: rgb(235, 243, 247); 
+    border: 1px solid #FF3300;
+    border-radius: 2px;  
+    background-color: #FF3300; 
+    font-weight: bold;
+    max-width: 67px;
+   	min-width: 67px; 
+    text-align: center;
+}
+
+.media {
+    color: rgb(235, 243, 247); 
+    border: 1px solid #F6BB00;
+    border-radius: 2px;  
+    background-color: #F6BB00; 
+    font-weight: bold;
+    max-width: 67px;
+   	min-width: 67px;
+   	text-align: center;
+}
+
+
+.baja {
+    color: rgb(235, 243, 247); 
+    border: 1px solid #2E86C9;
+    border-radius: 2px; 
+    background-color: #2E86C9; 
+    font-weight: bold;
+   	max-width: 67px;
+   	min-width: 67px;
+   	text-align: center;
+    
+}
